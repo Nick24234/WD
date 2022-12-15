@@ -1,0 +1,124 @@
+.g {
+    
+    position: relative;
+    float: right;
+    font-family: 'Lobster', cursive;
+    display: flex;
+    flex-wrap: wrap;
+}
+#kr{
+    text-align: center;
+
+}
+#pr{
+    text-align: center;
+}
+#vr{
+    text-align: center;
+}
+
+#t1 {
+    text-align: center;
+    font-size: 120%;
+    font-family: 'Playfair Display', serif;
+    border: 1px solid black;
+    background-color: #0d0c31;
+    color: yellow;
+}
+#t2{
+    text-align: center;
+    font-size: 120%;
+    font-family: 'Playfair Display', serif;
+    border: 1px solid black;
+    background-color: rgb(0, 162, 255);
+    color: rgb(195, 1, 1);
+ 
+}
+#t3 {
+    text-align: center;
+    font-size: 120%;
+    font-family: 'Playfair Display', serif;
+    border: 1px solid black;
+    background-color: 39, 0, 65;
+    color: rgb(168, 255, 8);
+}
+#t4 {
+    text-align: center;
+    font-size: 120%;
+    font-family: 'Playfair Display', serif;
+    border: 1px solid black;
+    background-color: 255, 21, 21;
+    color: rgb(0, 8, 255);
+    
+}
+.dv {
+    
+    font-family: 'Oswald', sans-serif;
+}
+#dv1 {
+   
+    background-color: #0d0c31;
+    color: rgb(255, 255, 255);
+}
+#dv2 {
+    
+    background-color: rgb(0, 162, 255);
+    color: rgb(27, 25, 25);
+}
+#dv3 {
+
+    background-color: rgb(39, 0, 65);
+    color: rgb(104, 255, 16);
+}
+#dv4 {
+    
+    background-color: rgb(255, 21, 21);
+    color: rgb(10, 5, 5);
+}
+.t{
+    
+    position: relative;
+    margin-top: 1%;
+    margin-left: 32%;
+}
+table, th, td {
+    
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+@media (min-width: 1200px) {
+    
+    .col-xxxlg-3 {
+        width: 25%;
+    }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+    
+    .col-lg-4 {
+        width: 33.33%;
+    }
+
+    .col-lg-12 {
+        width: 100%;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) { 
+    
+    .col-md-6 {
+        width: 50%;
+    }
+}
+@media (max-width: 767px) {
+   
+    .ggg{
+
+        flex-direction: column;
+    }
+
+    .col-sm-12 {
+        width: 100%;
+    }
+}
+#a1{
+    text-decoration: none;
+}
