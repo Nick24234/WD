@@ -1,0 +1,62 @@
+#biography a:link {
+  color: rgb(30, 255, 0);
+}
+#biography a:visited {
+  color: lightseagreen;
+}
+
+#nowadays a:link {
+  color: rgb(255, 0, 0);
+}
+#nowadays a:visited{
+  color: #0da2fe;
+}
+
+#friends a:link {
+  color: rgb(255, 0, 234);
+}
+#friends a:visited {
+  color: rgb(23, 0, 128);
+}
+
+#gallery a:link {
+  color: rgb(0, 72, 255);
+}
+#gallery a:visited{
+  color: #4617e2;
+}
+h2 {
+  text-align: center;
+  font-size: 24px;
+}
+#w {
+  font-size: 120%;
+}
+
+@media (min-width: 992px) {
+  .bob {
+      display: flex;
+      flex-direction: row;
+  }
+  .col-lg-4 {
+      width: 33.33%;
+  }
+}
+@media (min-width: 768px) and (max-width: 992px) {
+      .bob {
+          display: flex;
+          flex-wrap: wrap;
+      }    
+      .col-md-6 {
+          width: 50%;
+      }
+  }
+@media (max-width: 768px) {
+      .bob {
+          display: flex;
+          flex-direction: column;
+      } 
+      .col-sm-12 {
+          width: 100%;
+      }
+  }
